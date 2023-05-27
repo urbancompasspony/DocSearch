@@ -1,2 +1,15 @@
 
-sudo find ./* -type d -name "rose"
+# FOLDERS:
+
+cd /folder/
+sudo find ./* -type d -name "NAMETOFIND"
+
+# FILES:
+
+cd /folder/
+
+
+# INSIDE FILES:
+
+cd /folder/
+sudo grep -rinw '.' -e 'NAMETOFIND'
