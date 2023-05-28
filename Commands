@@ -2,14 +2,14 @@
 # FOLDERS:
 
 cd /folder/
-sudo find . -type d -name "NAMETOFIND"
+sudo find . -type d -name "NAMETOFIND or nametofind"
 
 # FILES:
 
 cd /folder/
-sudo find . -type f -name "NAMETOFIND"
+sudo find . -type f -name "NAMETOFIND or nametofind"
 
 # INSIDE FILES (-i not case sensitive):
 
 cd /folder/
-sudo grep -rinw '.' -e 'NAMETOFIND'
+sudo grep -rinw '.' -e 'NAMETOFIND or nametofind'
