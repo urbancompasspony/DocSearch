@@ -1,13 +1,14 @@
-
 # FOLDERS:
 
+USE * BECAUSE IT IS REGEX!
+
 cd /folder/
-sudo find . -type d -name "NAMETOFIND or nametofind"
+sudo find . -type d -name "*NAMETOFIND or nametofind*"
 
 # FILES:
 
 cd /folder/
-sudo find . -type f -name "NAMETOFIND or nametofind"
+sudo find . -type f -name "*NAMETOFIND or nametofind*"
 
 # INSIDE FILES (-i not case sensitive):
 
